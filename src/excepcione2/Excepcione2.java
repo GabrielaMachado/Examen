@@ -9,7 +9,7 @@ public class Excepcione2 {
             String nombre;
             int edad;
             String categoria = null;
-
+            System.out.println("hola");
             nombre = JOptionPane.showInputDialog("Ingrese su nombre por favor");
             edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese su edad por favor"));
 
